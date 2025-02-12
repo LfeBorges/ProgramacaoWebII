@@ -11,7 +11,7 @@
 
     <div class="mb-3">
         <label for="valor 2" class="form-label">informe o valor 2</label>
-        <input type="number" id="valor 2" name="valor 2" class="form-control" required="">
+        <input type="number" id="valor2" name="valor2" class="form-control" required="">
     </div>
 
     <button type="submit" class="btn btn-primary">Enviar</button>
