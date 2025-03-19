@@ -16,7 +16,7 @@ class ProdutoController extends Controller
     public function index()
     {
         $produtos = Produto::with('categoria')->get();
-        return view("index.blade.php", compact('produtos'));
+        return view("produtos.index", compact('produtos'));
     }
 
     /**
